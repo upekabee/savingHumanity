@@ -44,7 +44,12 @@ public class Solution {
 
     }
     
-    // Assume length of one and two is the same
+    /** Assume length of one and two is the same
+     * 
+     * @param one
+     * @param two
+     * @return
+     */
     private static boolean isOneMismatch(String one, String two) {
         int count = 0;
 
